@@ -1,0 +1,76 @@
+html {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+body {  
+    margin : 0;
+    background-color: #efefef ;
+}
+
+header {
+    background-image: url("images/portadafacebookxddd.png");
+    background-size: cover;
+    color: white;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    -webkit-text-stroke: 2px black; /* grosor y color del contorno */
+    font-size: 4rem;
+    margin: 0;
+}
+
+.container {
+    width: 400px;         /* O puedes usar un valor fijo como 1200px */
+    margin: 0 auto;     /* Esto centra horizontalmente */
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding : 0.25rem 0;
+    cursor: pointer
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+section article h2, section article p {
+    margin: 1rem ;
+}
+
+footer {
+    text-align: left;
+    padding: 3rem;
+    background-color: #333;
+    color: white;
+    margin: 0;
+}
+
+footer section {
+    float: right;
+    margin : 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+
+
+
+
